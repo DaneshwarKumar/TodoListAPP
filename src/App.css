@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.App{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 52, 52);
+}
+
+/* styling the container box  */
+
+.container{
+    width:  30%;
+     height: 80vh;
+     border: 1px solid rgb(218, 233, 220);
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     color: white;
+     background-color: #72170556;
+     border-radius: 14px;
+     overflow-y: auto;
+}
+
+
+/* styling the form */
+.todoForm{
+     width: 90%;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+/* stying the input box  */
+.input{
+  margin: 18px 0 18px 5px;
+  padding: 20px 8px;
+  font-size: 18px;
+  width: 80%;
+  height: 33px;
+  color: brown;
+  border: none;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+
+
+/* styling the add button  */
+.btn{
+    width: 20%;
+    height: 42px;
+   background-color: blueviolet;
+   color: white;
+   border: none;
+   border-top-right-radius: 14px;
+   border-bottom-right-radius: 14px;
+}
+
+/* styling the edit and delete button  */
+button{
+    margin: 0px 5px;
+    background-color: lightslategrey;
+}
+.btn{
+    margin-left: 0px;
+}
+
+/* styling the todo items  */
+.alltodos{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.singletodo{
+   width: 350px;
+   background-color: #fff;
+   color: black;
+   border-radius: 14px;
+   padding: 8px 5px;
+   font-size: 18px;
+   display: flex;
+   align-items: center;
+   margin: 5px;
+}
+
+.todotext{
+    flex: 1;
+}
