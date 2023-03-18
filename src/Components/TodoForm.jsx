@@ -1,6 +1,6 @@
 import React from 'react'
 
-// creating the input box and add button 
+// creating the input box and add button to add todo list items
 const TodoForm = (props) => {
   return (
     <form className="todoForm" onSubmit={props.handleSubmit}>
